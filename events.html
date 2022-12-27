@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mydiv">This is some text</div>
+    <button onclick ="change()">click me</button>
+    <script>
+        alert("welcome to events");
+       let num = prompt("enter a number:");
+       console.log(num);
+     
+       confirm("Are you ready to leave?");
+
+       function change() {
+        let msg = document.getElementById("mydiv");
+        msg.innerText = "Button clicked";
+       }
+
+    </script>
+</body>
+</html>
